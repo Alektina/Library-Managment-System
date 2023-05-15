@@ -1,0 +1,21 @@
+﻿@model List<Book>
+
+<h1>The list of our books</h1>
+
+
+
+@foreach (Book item in Model)
+{    
+    <span> Titel: </span>
+    @Html.DisplayFor(modelItem => item.Title)
+    <br />
+
+    <span> Author: </span>
+    @Html.DisplayFor(modelItem => item.Author)
+    <br />
+    <a class="btn btn-sm btn-info mt-1" asp-action="Details" asp-route-id="@item.Id">Details</a>
+    <br />    
+
+    <div>----------------------------------</div>
+
+}

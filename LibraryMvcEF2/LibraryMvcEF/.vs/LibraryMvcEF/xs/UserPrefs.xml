@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{1F57E91D-E425-4FBD-BFC4-919B7BEC1762}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/BooksController.cs">
+    <Files>
+      <File FileName="ApplicationContext.cs" />
+      <File FileName="Models/Author.cs" />
+      <File FileName="Models/Book.cs" />
+      <File FileName="Models/Genre.cs" />
+      <File FileName="Models/Loan.cs" />
+      <File FileName="Models/User.cs" />
+      <File FileName="Models/Copy.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="Views/Books/Details.cshtml" />
+      <File FileName="Views/Books/Index.cshtml" />
+      <File FileName="Controllers/BooksController.cs" Line="68" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LibraryMvcEF" expanded="True">
+            <Node name="LibraryMvcEF" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="BooksController.cs" selected="True" />
+              </Node>
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Books" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.LibraryMvcEF PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

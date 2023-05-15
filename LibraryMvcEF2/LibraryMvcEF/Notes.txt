@@ -1,0 +1,6 @@
+﻿
+
+För att skapa en ny book tryck på Add a new book
+
+Ändra befintlig data för en book https://localhost:7158/Books/edit/#
+# - ange Id för boken som ska ändras

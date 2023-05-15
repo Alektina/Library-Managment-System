@@ -1,0 +1,17 @@
+﻿@model LibraryMvcEF.Models.Book
+
+
+
+<h1>@Html.DisplayFor(model => model.Title)</h1>
+
+<span>Author: </span> @Html.DisplayFor(model => model.Author)
+<br />
+<span>ISBN: </span> @Html.DisplayFor(model => model.ISBN)
+<br />
+<span>Quantity: </span> @Html.DisplayFor(model => model.Quantity)
+<br />
+<br />
+<a asp-action="Edit" asp-route-id="@Model.Id">Redigera</a>
+<br />
+<a asp-action="Delete" asp-route-id="@Model.Id">Ta bort</a>
+

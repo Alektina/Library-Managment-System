@@ -1,0 +1,13 @@
+﻿@model LibraryMvcEF.Models.Book
+
+<h1>Change information</h1>
+
+<form asp-action="Edit" method="POST">
+    <input type="hidden" name="Id" value="@Html.DisplayFor(model => model.Id)" />
+    Titel: <input type="text" name="Title" value="@Html.DisplayFor(model => model.Title)" /><br />
+    Author: <input type="text" name="Author" value="@Html.DisplayFor(model => model.Author)" /><br />
+    ISBN: <input type="text" name="ISBN" value="@Html.DisplayFor(model => model.ISBN)" /><br />
+    Quantity: <input type="text" name="Quiantity" value="@Html.DisplayFor(model => model.Quantity)" /><br />
+
+    <input type="submit" value="Change" />
+</form>
